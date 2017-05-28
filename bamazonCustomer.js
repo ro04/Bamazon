@@ -77,7 +77,9 @@ var promptUser = function(){
                     //your application should check if your store has enough of the product to meet the customer's request.
                     if(answer.quantity <= chosenItem.stock_quantity){
                         console.log('Good News! The product you selected is in stock.');
+                        var updateQuery = 'UPDATE products SET stock_quantity = ' + (chosenItem.stock_quantity - answer.quantity) + ' WHERE item_id = ' + chosenItem.item_id;
                         var updateQuery = 'UPDATE products SET stock_quantity = ' + (chosenItem.stock_quantity - answer.quantity);
+
                         //UPDATE
                         connection.query(updateQuery, function(err, res) {
                             if(err) throw err;
@@ -108,7 +110,4 @@ var promptUser = function(){
 }
 
 displayInventory();
-
-
-
 
