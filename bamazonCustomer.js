@@ -78,7 +78,6 @@ var promptUser = function(){
                     if(answer.quantity <= chosenItem.stock_quantity){
                         console.log('Good News! The product you selected is in stock.');
                         var updateQuery = 'UPDATE products SET stock_quantity = ' + (chosenItem.stock_quantity - answer.quantity) + ' WHERE item_id = ' + chosenItem.item_id;
-                        var updateQuery = 'UPDATE products SET stock_quantity = ' + (chosenItem.stock_quantity - answer.quantity);
 
                         //UPDATE
                         connection.query(updateQuery, function(err, res) {
