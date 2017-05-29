@@ -29,4 +29,4 @@ Running the Node application called *bamazonManager.js* will:
 - If a manager selects *Add New Product*, it allows the manager to add a completely new product to the store.
 
 
-*Screenshots of the test case for the application is under images*
+**Screenshots of the test cases for each application is under the images folder**
