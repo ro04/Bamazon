@@ -27,3 +27,6 @@ Running the Node application called *bamazonManager.js* will:
 - If a manager selects *Add to Inventory*, the app displays a prompt that will let the manager "add more" of any item currently in the store.
 
 - If a manager selects *Add New Product*, it allows the manager to add a completely new product to the store.
+
+
+*Screenshots of the test case for the application is under images*
