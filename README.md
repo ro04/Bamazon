@@ -13,7 +13,8 @@ Running the Node application called *bamazonCustomer.js* will:
 
 **Management View**
 
-Running the Node application called *bamazonManager.js* will list a set of menu options:
+Running the Node application called *bamazonManager.js* will:
+- List a set of menu options:
     * View Products for Sale
     * View Low Inventory
     * Add to Inventory
