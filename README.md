@@ -3,6 +3,7 @@
 Bamazon is a CLI style storefront implemented using **Node.js** for executing server-side JavaScript code combined with **MySQL** database. This application has two interfaces: Customer View and Management View. 
 
 **Customer View**
+
 Running the Node application called *bamazonCustomer.js* will: 
 - First display all of the items available for sale. The Item IDs, Product Names, Prices, and Stock Quantity are included. 
 - Then prompt the user with two messages:
@@ -11,6 +12,7 @@ Running the Node application called *bamazonCustomer.js* will:
 - Third, once the customer has placed the order, the application checks if the store has enough of the product to meet the customer's request. If not, the app logs the phrase *Insufficient quantity!*, and then prevents the order from going through. However, if the store does have enough of the product, the customer's order is fulfilled and the SQL database is updated reflecting the remaining quantity.
 
 **Management View**
+
 Running the Node application called *bamazonManager.js* will list a set of menu options:
     * View Products for Sale
     * View Low Inventory
